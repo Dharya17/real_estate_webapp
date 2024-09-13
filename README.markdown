@@ -1,4 +1,4 @@
-
+<img width="1512" alt="Screenshot 2024-09-13 at 9 45 56 PM" src="https://github.com/user-attachments/assets/54f8bbbf-eebd-4d50-a023-e62f100027b1">
 
 # Real Estate Web Application
 
@@ -119,6 +119,11 @@ We welcome contributions to enhance the project! To contribute, follow these ste
     git push origin feature/your-feature-name
     ```
 6. **Create a Pull Request**.
+
+
+<img width="1512" alt="Screenshot 2024-09-13 at 9 45 56 PM" src="https://github.com/user-attachments/assets/5a1639fa-8f13-4f79-af63-21b86e56353d">
+
+
 
 ## Future Enhancements
 - **Machine Learning Integration**: We have an `ml_algo` file that contains a machine learning algorithm for property price predictionand recommendation. This will be integrated into the application in the future to provide users with price estimates based on various factors.
