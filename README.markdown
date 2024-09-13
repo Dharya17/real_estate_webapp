@@ -7,22 +7,34 @@ Welcome to the Real Estate Web Application! This project is designed to provide 
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [Future Enhancements](#future-enhancements)
-7. [License](#license)
+3. [Technologies Used](#technologies-used)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Project Structure](#project-structure)
+7. [Contributing](#contributing)
+8. [Future Enhancements](#future-enhancements)
+9. [License](#license)
 
 ## Introduction
 The Real Estate Web Application is a comprehensive platform that allows users to list properties, search for properties, and manage their listings. It is built with a focus on user experience and performance.
 
 ## Features
-- **User Authentication**: Secure login and registration system.
-- **Property Listings**: Add, edit, and delete property listings.
-- **Search Functionality**: Advanced search options to find the perfect property.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
-- **Interactive Maps**: View properties on an interactive map.
+- **User Authentication**: Secure login and registration system using JWT.
+- **Property Listings**: Add, edit, and delete property listings with ease.
+- **Search Functionality**: Advanced search options to find the perfect property based on location, price, type, and more.
+- **Responsive Design**: Optimized for both desktop and mobile devices to ensure a seamless user experience.
+- **Interactive Maps**: View properties on an interactive map powered by Google Maps API.
 - **Favorites**: Save favorite properties for easy access later.
+- **Admin Dashboard**: Manage users and properties through an intuitive admin interface.
+- **Notifications**: Receive email notifications for important updates and actions.
+
+## Technologies Used
+- **Frontend**: React, Redux, Bootstrap
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT (JSON Web Tokens)
+- **APIs**: Google Maps API, SendGrid API for email notifications
+- **Deployment**: Docker, Kubernetes
 
 ## Installation
 To get started with the project, follow these steps:
@@ -58,6 +70,36 @@ Once the application is up and running, you can access it at `http://localhost:3
 - **Search Properties**: Use the search bar to find properties based on various criteria.
 - **View Property Details**: Click on a property to view detailed information and images.
 - **Save Favorites**: Save properties to your favorites list for quick access later.
+- **Admin Dashboard**: Access the admin dashboard to manage users and properties.
+
+## Project Structure
+Here's an overview of the project's structure:
+
+```
+real_estate_webapp/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Auth/
+│   │   ├── Property/
+│   │   ├── ...
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── Login.js
+│   │   ├── ...
+│   ├── redux/
+│   │   ├── actions/
+│   │   ├── reducers/
+│   │   └── store.js
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── .env
+├── package.json
+└── README.md
+```
 
 ## Contributing
 We welcome contributions to enhance the project! To contribute, follow these steps:
@@ -79,6 +121,8 @@ We welcome contributions to enhance the project! To contribute, follow these ste
 6. **Create a Pull Request**.
 
 ## Future Enhancements
-- **Machine Learning Integration**: We have an `ml_algo` file that contains a machine learning algorithm for property price prediction and recommendation. This will be integrated into the application in the future to provide users with price estimates based on various factors.
+- **Machine Learning Integration**: We have an `ml_algo` file that contains a machine learning algorithm for property price predictionand recommendation. This will be integrated into the application in the future to provide users with price estimates based on various factors.
 - **User Reviews**: Allow users to leave reviews and ratings for properties.
 - **Enhanced Search**: Implement more advanced search filters and sorting options.
+- **Chat Support**: Integrate a chat system for real-time communication between buyers and sellers.
+- **Payment Gateway**: Add a secure payment gateway for transactions.
