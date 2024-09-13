@@ -1,4 +1,3 @@
-<img width="1512" alt="Screenshot 2024-09-13 at 9 45 56 PM" src="https://github.com/user-attachments/assets/54f8bbbf-eebd-4d50-a023-e62f100027b1">
 
 # Real Estate Web Application
 
